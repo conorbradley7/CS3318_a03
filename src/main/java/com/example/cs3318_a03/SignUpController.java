@@ -8,7 +8,7 @@ public class SignUpController {
     private Label welcomeText;
 
     @FXML
-    protected void onHelloButtonClick() {
+    protected void onSubmitButtonClick() {
         welcomeText.setText("Welcome to JavaFX Application!");
     }
 }

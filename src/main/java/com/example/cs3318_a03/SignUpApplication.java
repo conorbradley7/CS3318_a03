@@ -13,6 +13,9 @@ public class SignUpApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(SignUpApplication.class.getResource("signUp-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         stage.setTitle("Welcome!");
+        stage.setMinHeight(500.0);
+        stage.setMinWidth(300.00);
+
         stage.setScene(scene);
         stage.show();
     }
