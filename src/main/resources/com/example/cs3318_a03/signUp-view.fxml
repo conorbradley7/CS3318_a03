@@ -26,10 +26,10 @@
       </font>
    </Label>
    <Label text="Email" />
-   <TextField maxWidth="300.0" promptText="Email" />
+   <TextField fx:id="email" maxWidth="300.0" promptText="Email" />
    <Label fx:id="emailError" text="_" />
    <Label text="Password" />
-   <PasswordField maxWidth="300.0" promptText="Password" />
+   <PasswordField fx:id="password" maxWidth="300.0" promptText="Password" />
    <Label fx:id="passwordError" text="_">
       <font>
          <Font size="10.0" />
