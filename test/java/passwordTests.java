@@ -9,4 +9,8 @@ public class passwordTests {
     public void noPasswordEntry(){
         assertThrows(NoPasswordException.class, () -> VerifyPassword.verifyInput(""), "No Password input SHOULD throw error");
     }
+    @Test
+    public void shortPassword(){
+        assertThrows(ShortPasswordException.class, () -> VerifyPassword.verifyLength(""), "Short password SHOULD throw error");
+    }
 }
