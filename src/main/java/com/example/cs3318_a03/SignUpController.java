@@ -16,9 +16,9 @@ public class SignUpController {
     private String password_val;
 
     @FXML
-    protected void onSubmitButtonClick() {
+    protected void onSubmitButtonClick() throws noEmailException {
         email_val = email.getText();
-        VerifyEmail.verify(email_val);
+        VerifyEmail.verifyInput(email_val);
         password_val = password.getText();
 
     }
