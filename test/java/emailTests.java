@@ -7,7 +7,11 @@ import static org.junit.jupiter.api.Assertions.*;
 public class emailTests {
     @Test
     public void noEmailEntry(){
-        assertThrows(noEmailException.class, () -> VerifyEmail.verifyInput(""), "No Email input SHOULD throw error");
+        assertThrows(noEmailException.class, () -> VerifyEmail.doTests(""), "No Email input SHOULD throw error");
+    }
+    @Test
+    public void poorlyFormedEmail(){
+        assertThrows(poorlyFormedEmail.class, () -> VerifyEmail.doTests(""), "Poorly Formed Email input SHOULD throw error");
     }
 
 
