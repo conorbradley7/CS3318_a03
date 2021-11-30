@@ -24,4 +24,9 @@ public class passwordTests {
         assertThrows(NoDigitPasswordException.class, () -> VerifyPassword.noDigits("abcdefgh"), "Password " +
                 "Must Contain At Least 1 Digit (0-9)");
     }
+    @Test
+    public void noSpecialPassword(){
+        assertThrows(NoSpecialPasswordException.class, () -> VerifyPassword.noSpecials("hello123"), "" +
+                "Password Must Contain At Least 1 Special Character (*^&@!.)");
+    }
 }
