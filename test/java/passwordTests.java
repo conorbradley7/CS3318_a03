@@ -1,4 +1,5 @@
 import com.example.cs3318_a03.NoPasswordException;
+import com.example.cs3318_a03.ShortPasswordException;
 import com.example.cs3318_a03.VerifyPassword;
 import org.junit.jupiter.api.Test;
 
@@ -11,6 +12,6 @@ public class passwordTests {
     }
     @Test
     public void shortPassword(){
-        assertThrows(ShortPasswordException.class, () -> VerifyPassword.verifyLength(""), "Short password SHOULD throw error");
+        assertThrows(ShortPasswordException.class, () -> VerifyPassword.shortPassword("123456"), "Short password SHOULD throw error");
     }
 }

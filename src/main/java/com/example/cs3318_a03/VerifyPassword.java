@@ -17,4 +17,11 @@ public class VerifyPassword {
         }
         return true;
     }
+
+    public static Boolean shortPassword(String password) throws ShortPasswordException {
+        if (password.length()<7){
+            throw new ShortPasswordException("Password Must Be At Least 7 Characters");
+        }
+        return true;
+    }
 }
