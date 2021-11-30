@@ -22,4 +22,9 @@ public class passwordTests {
         assertThrows(NoLetterPasswordException.class, () -> VerifyPassword.noLetters("1234567"), "Password " +
                 "Must Contain At Least 1 Letter");
     }
+    @Test
+    public void noDigitPassword(){
+        assertThrows(NoDigitPasswordException.class, () -> VerifyPassword.noDigits("abcdefgh"), "Password " +
+                "Must Contain At Least 1 Digit (0-9)");
+    }
 }

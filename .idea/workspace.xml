@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcc98b3d-5e4e-43c3-adc2-82d935afde17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cs3318_a03/VerifyPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cs3318_a03/VerifyPassword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/java/passwordTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/passwordTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.passwordTests.noLetterPassword">
+  <component name="RunManager" selected="JUnit.passwordTests.noDigitPassword">
     <configuration name="emailTests.noEmailEntry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CS3318_a03" />
       <option name="PACKAGE_NAME" value="" />
@@ -50,11 +48,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="emailTests.poorlyFormedEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="passwordTests.noDigitPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CS3318_a03" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="emailTests" />
-      <option name="METHOD_NAME" value="poorlyFormedEmail" />
+      <option name="MAIN_CLASS_NAME" value="passwordTests" />
+      <option name="METHOD_NAME" value="noDigitPassword" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.passwordTests.noDigitPassword" />
         <item itemvalue="JUnit.passwordTests.noLetterPassword" />
         <item itemvalue="JUnit.passwordTests.shortPassword" />
         <item itemvalue="JUnit.passwordTests.noPasswordEntry" />
         <item itemvalue="JUnit.emailTests.noEmailEntry" />
-        <item itemvalue="JUnit.emailTests.poorlyFormedEmail" />
       </list>
     </recent_temporary>
   </component>
