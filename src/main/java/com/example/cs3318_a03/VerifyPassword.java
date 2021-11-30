@@ -46,4 +46,14 @@ public class VerifyPassword {
             throw new NoDigitPasswordException("Password Must Contain At Least 1 Letter");
         }
     }
+
+    public static Boolean noSpecials(String password) throws NoSpecialPasswordException {
+        String regex = "^.*[*^&@!.].*$";
+        Pattern pattern = Pattern.compile(regex);
+        if (pattern.matcher(password).matches()) {
+            return true;
+        } else {
+            throw new NoSpecialPasswordException("Password Must Contain At Least 1 Special Character (*^&@!.)");
+        }
+    }
 }
