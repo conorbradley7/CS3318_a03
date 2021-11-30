@@ -1,5 +1,7 @@
 package com.example.cs3318_a03;
 
+import java.util.regex.Pattern;
+
 public class VerifyPassword {
         private static String noPasswordMsg = "You Must Enter A Password!";
         public static String doTests(String password) {
@@ -23,5 +25,15 @@ public class VerifyPassword {
             throw new ShortPasswordException("Password Must Be At Least 7 Characters");
         }
         return true;
+    }
+
+    public static Boolean noLetters(String password) throws NoLetterPasswordException {
+        String regex = "^.*[a-zA-Z].*$";
+        Pattern pattern = Pattern.compile(regex);
+        if (pattern.matcher(password).matches()) {
+            return true;
+        } else {
+            throw new NoLetterPasswordException("Password Must Contain At Least 1 Letter");
+        }
     }
 }
