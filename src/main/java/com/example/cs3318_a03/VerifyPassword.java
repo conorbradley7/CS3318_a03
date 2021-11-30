@@ -36,4 +36,14 @@ public class VerifyPassword {
             throw new NoLetterPasswordException("Password Must Contain At Least 1 Letter");
         }
     }
+
+    public static Boolean noDigits(String password) throws NoDigitPasswordException {
+        String regex = "^.*[0-9].*$";
+        Pattern pattern = Pattern.compile(regex);
+        if (pattern.matcher(password).matches()) {
+            return true;
+        } else {
+            throw new NoDigitPasswordException("Password Must Contain At Least 1 Letter");
+        }
+    }
 }

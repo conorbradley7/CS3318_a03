@@ -1,7 +1,4 @@
-import com.example.cs3318_a03.NoLetterPasswordException;
-import com.example.cs3318_a03.NoPasswordException;
-import com.example.cs3318_a03.ShortPasswordException;
-import com.example.cs3318_a03.VerifyPassword;
+import com.example.cs3318_a03.*;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
