@@ -1,7 +1,7 @@
 package com.example.cs3318_a03;
 
-public class poorlyFormedEmailException extends Exception {
-    poorlyFormedEmailException(String message) {
+public class PoorlyFormedEmailException extends Exception {
+    PoorlyFormedEmailException(String message) {
         super(message);
     }
 }

@@ -1,6 +1,5 @@
 package com.example.cs3318_a03;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class VerifyEmail {
@@ -13,30 +12,30 @@ public class VerifyEmail {
                 verifyForm(email);
                 return "Valid Email Entered";
             }
-            catch(poorlyFormedEmailException x){
+            catch(PoorlyFormedEmailException x){
                     return badEmailMsg;
                 }
         }
-        catch(noEmailException e){
+        catch(NoEmailException e){
             return noEmailMsg;
         }
     }
 
-    public static Boolean verifyInput(String email) throws noEmailException{
+    public static Boolean verifyInput(String email) throws NoEmailException {
         if(email == "") {
-            throw new noEmailException("You Must Enter an Email Address");
+            throw new NoEmailException("You Must Enter an Email Address");
         }
         return true;
     }
 
-    public static Boolean verifyForm(String email) throws poorlyFormedEmailException{
+    public static Boolean verifyForm(String email) throws PoorlyFormedEmailException {
         String regex = "^(.+)@(.+)$";
         Pattern pattern = Pattern.compile(regex);
         if (pattern.matcher(email).matches()){
             return true;
         }
         else{
-            throw new poorlyFormedEmailException("Invalid Email Address");
+            throw new PoorlyFormedEmailException("Invalid Email Address");
         }
     }
 }

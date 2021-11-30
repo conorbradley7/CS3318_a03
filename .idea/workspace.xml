@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcc98b3d-5e4e-43c3-adc2-82d935afde17" name="Changes" comment="" />
+    <list default="true" id="fcc98b3d-5e4e-43c3-adc2-82d935afde17" name="Changes" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cs3318_a03/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cs3318_a03/SignUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cs3318_a03/VerifyEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cs3318_a03/VerifyEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cs3318_a03/noEmailException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cs3318_a03/NoEmailException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cs3318_a03/poorlyFormedEmailException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cs3318_a03/PoorlyFormedEmailException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/emailTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/emailTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/passwordTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/passwordTests.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cs3318_a03/poorlyFormedEmailException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/cs3318_a03/poorlyFormedEmailException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cs3318_a03/VerifyEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cs3318_a03/VerifyEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cs3318_a03/VerifyEmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/cs3318_a03/VerifyEmail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/emailTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/emailTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/emailTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/emailTests.java" afterDir="false" />
+>>>>>>> parent of 1839e16 (Password test 1 implemented: Check for null input (fails))
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,5 +145,24 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+<<<<<<< HEAD
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Password test 1 implemented: Check for null input (fails)" />
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/java/passwordTests.java</url>
+          <line>7</line>
+          <properties class="passwordTests" method="noPasswordEntry">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+>>>>>>> parent of 1839e16 (Password test 1 implemented: Check for null input (fails))
   </component>
 </project>
