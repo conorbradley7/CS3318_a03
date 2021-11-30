@@ -18,8 +18,8 @@ public class SignUpController {
     @FXML
     protected void onSubmitButtonClick() {
         email_val = email.getText();
+        VerifyEmail.verify(email_val);
         password_val = password.getText();
-
 
     }
 }
