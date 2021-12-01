@@ -6,7 +6,11 @@ import javafx.scene.control.TextField;
 
 public class SignUpController {
     @FXML
-    private Label welcomeText;
+    private Label emailError;
+    @FXML
+    private Label passwordError;
+    @FXML
+    private Label successMsg;
     @FXML
     private TextField email;
     @FXML
@@ -21,5 +25,10 @@ public class SignUpController {
         String emailMsg = VerifyEmail.doTests(email_val);
         password_val = password.getText();
         String passwordMsg = VerifyPassword.doTests(password_val);
+        emailError.setText(emailMsg);
+        passwordError.setText(passwordMsg);
+        if(emailMsg == "" && passwordMsg == ""){
+            successMsg.setText("Congratulations! You have successfully signed up!");
+        }
     }
 }
