@@ -18,8 +18,8 @@ public class SignUpController {
     @FXML
     protected void onSubmitButtonClick() throws NoEmailException {
         email_val = email.getText();
-        VerifyEmail.verifyInput(email_val);
+        String emailMsg = VerifyEmail.doTests(email_val);
         password_val = password.getText();
-
+        String passwordMsg = VerifyPassword.doTests(password_val);
     }
 }

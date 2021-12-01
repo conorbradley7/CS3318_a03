@@ -10,7 +10,7 @@ public class VerifyEmail {
             verifyInput(email);
             try {
                 verifyForm(email);
-                return "Valid Email Entered";
+                return "";
             }
             catch(PoorlyFormedEmailException x){
                     return badEmailMsg;
