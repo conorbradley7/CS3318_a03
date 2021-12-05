@@ -21,6 +21,7 @@ public class SignUpController {
 
     @FXML
     protected void onSubmitButtonClick() throws NoEmailException {
+        successMsg.setText("");
         email_val = email.getText();
         String emailMsg = VerifyEmail.doTests(email_val);
         password_val = password.getText();
@@ -30,5 +31,6 @@ public class SignUpController {
         if(emailMsg == "" && passwordMsg == ""){
             successMsg.setText("Congratulations! You have successfully signed up!");
         }
+
     }
 }
