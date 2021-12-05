@@ -29,4 +29,8 @@ public class passwordTests {
         assertThrows(NoSpecialPasswordException.class, () -> VerifyPassword.noSpecials("hello123"), "" +
                 "Password Must Contain At Least 1 Special Character (*^&@!.)");
     }
+    @Test
+    public void goodPassword(){
+        assertEquals("",VerifyPassword.doTests("password1*"));
+    }
 }

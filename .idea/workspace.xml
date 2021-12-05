@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcc98b3d-5e4e-43c3-adc2-82d935afde17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cs3318_a03/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cs3318_a03/SignUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/emailTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/emailTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/emailTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/emailTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/passwordTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/passwordTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.emailTests">
+  <component name="RunManager" selected="JUnit.passwordTests">
     <configuration name="emailTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CS3318_a03" />
       <option name="PACKAGE_NAME" value="" />
@@ -88,9 +91,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.passwordTests" />
         <item itemvalue="JUnit.emailTests" />
         <item itemvalue="JUnit.emailTests.noEmailEntry" />
-        <item itemvalue="JUnit.passwordTests" />
         <item itemvalue="JUnit.passwordTests.noSpecialPassword" />
         <item itemvalue="JUnit.passwordTests.noDigitPassword" />
       </list>
