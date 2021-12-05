@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcc98b3d-5e4e-43c3-adc2-82d935afde17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/CS3318_a03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CS3318_a03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/emailTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/emailTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/emailTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/emailTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/passwordTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/passwordTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="GUI" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,26 +36,54 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="emailTests.noEmailEntered" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.passwordTests">
+    <configuration name="emailTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CS3318_a03" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="emailTests" />
-      <option name="METHOD_NAME" value="noEmailEntered" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="emailTests.noEmailEntry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS3318_a03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="emailTests" />
+      <option name="METHOD_NAME" value="noEmailEntry" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="passwordTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS3318_a03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="passwordTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="passwordTests.noDigitPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS3318_a03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="passwordTests" />
+      <option name="METHOD_NAME" value="noDigitPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="passwordTests.noSpecialPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS3318_a03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="passwordTests" />
+      <option name="METHOD_NAME" value="noSpecialPassword" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,8 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.emailTests.noEmailEntered" />
-        <item itemvalue="JUnit.emailTests.noEmailEntered" />
+        <item itemvalue="JUnit.passwordTests" />
+        <item itemvalue="JUnit.emailTests" />
+        <item itemvalue="JUnit.emailTests.noEmailEntry" />
+        <item itemvalue="JUnit.passwordTests.noSpecialPassword" />
+        <item itemvalue="JUnit.passwordTests.noDigitPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -81,15 +115,42 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/testing" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

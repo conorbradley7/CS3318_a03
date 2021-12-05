@@ -1,3 +1,12 @@
+/Users/conorbradley/IdeaProjects/CS3318_a03/src/main/java/com/example/cs3318_a03/NoPasswordException.java
+/Users/conorbradley/IdeaProjects/CS3318_a03/src/main/java/com/example/cs3318_a03/PoorlyFormedEmailException.java
+/Users/conorbradley/IdeaProjects/CS3318_a03/src/main/java/com/example/cs3318_a03/NoSpecialPasswordException.java
 /Users/conorbradley/IdeaProjects/CS3318_a03/src/main/java/com/example/cs3318_a03/SignUpController.java
+/Users/conorbradley/IdeaProjects/CS3318_a03/src/main/java/com/example/cs3318_a03/NoEmailException.java
+/Users/conorbradley/IdeaProjects/CS3318_a03/src/main/java/com/example/cs3318_a03/ShortPasswordException.java
 /Users/conorbradley/IdeaProjects/CS3318_a03/src/main/java/module-info.java
+/Users/conorbradley/IdeaProjects/CS3318_a03/src/main/java/com/example/cs3318_a03/NoDigitPasswordException.java
+/Users/conorbradley/IdeaProjects/CS3318_a03/src/main/java/com/example/cs3318_a03/NoLetterPasswordException.java
 /Users/conorbradley/IdeaProjects/CS3318_a03/src/main/java/com/example/cs3318_a03/SignUpApplication.java
+/Users/conorbradley/IdeaProjects/CS3318_a03/src/main/java/com/example/cs3318_a03/VerifyEmail.java
+/Users/conorbradley/IdeaProjects/CS3318_a03/src/main/java/com/example/cs3318_a03/VerifyPassword.java
