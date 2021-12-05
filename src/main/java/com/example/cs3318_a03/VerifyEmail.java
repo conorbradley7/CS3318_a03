@@ -29,7 +29,7 @@ public class VerifyEmail {
     }
 
     public static Boolean verifyForm(String email) throws PoorlyFormedEmailException {
-        String regex = "^(.+)@(.+)$";
+        String regex = "^^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$";
         Pattern pattern = Pattern.compile(regex);
         if (pattern.matcher(email).matches()){
             return true;
